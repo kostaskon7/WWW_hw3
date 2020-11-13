@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Product Managment</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form method="post" action="servlet.Product"> 
+            <table width="400px" border="1">
+                <tr>
+                    <td>Barcode</td>
+                    <td><input type="text" name="Barcode" id="Barcode" ></td>
+                </tr>
+                <tr>
+                    <td>Product Name</td>
+                    <td><input type="text" name="Product Name" id="pname" ></td>
+                </tr>
+                <tr>
+                    <td>Color</td>
+                    <td><input type="text" name="Color" id="color" ></td>
+                </tr>
+                <tr>
+                    <td>Description</td>
+                    <td><input type="text" name="Description" id="Description" ></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input type="submit" value="submit" ></td>
+                </tr>   
+            </table>
+        </form>
+        <p><a href="viewproduct">View Products</a></p>
+    </body>
+</html>
